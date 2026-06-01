@@ -9,5 +9,9 @@ your account belongs to and matches them against the permissions (Access Control
 
 
 DPLC
+
+
 Restart-Computer -ComputerName "111.222.3.4", "111.222.3.5", "111.222.3.6" -Force
+
+
 shutdown /m \\111.222.3.4 /r /f /t 0 & shutdown /m \\111.222.3.5 /r /f /t 0
